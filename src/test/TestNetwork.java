@@ -3,6 +3,10 @@ package test;
 import Jama.Matrix;
 import cn.edu.cup.tanyao.network.*;
 
+import java.text.DecimalFormat;
+
+import static cn.edu.cup.tanyao.network.StandardCondition.*;
+
 /**
  * 枝状管网计算
  * @author tanyao
@@ -68,7 +72,7 @@ public class TestNetwork {
         return network.simpleBranch.times(temp0).minus(network.simpleNodeLoad);
     }
 
-    public static Matrix jacobi(NetworkData network) {
+    private static Matrix jacobi(NetworkData network) {
         int n = network.simpleNodeLoad.getRowDimension();
         Matrix jacobi = new Matrix(n, n);
 
@@ -152,6 +156,7 @@ public class TestNetwork {
         }
 
         System.out.println("迭代次数：" + i);
+
         //计算流量
         Matrix Flow = T.net.branch.transpose().times(T.net.nodePressure).arrayTimes(T.net.pipeImpedance.arrayRightDivide(getZ(T.net)));
         double[][] q = getArray(Flow);
@@ -160,8 +165,45 @@ public class TestNetwork {
         }
         Flow = new Matrix(q);
         //输出节点载荷
+        System.out.print("节点流量：");
         T.net.branch.times(Flow).times(24 * 3600).print(5, 0);
         //输出压力
-        getActualPressure(T.net.nodePressure).print(1, 5);
+        System.out.print("节点压力：");
+        getActualPressure(T.net.nodePressure).print(1, 6);
+
+        //输出管段起点流速
+        double[] diameter = new double[12];
+        int[] begin = new int[PutIn.getRowCount(1) - 1];
+        int[] end = new int[PutIn.getRowCount(1) - 1];
+        for(int j = 0; j < begin.length; j++) {
+            begin[j] = (int)PutIn.getElement(j + 2, 2, 1);
+            end[j] = (int)PutIn.getElement(j + 2, 3, 1);
+            diameter[j] = PutIn.getElement(j + 2, 5, 1);
+        }
+
+        double[] com = { 1, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        BwrsZ cz = new BwrsZ(com);
+        double[][] np = getArray(getActualPressure(T.net.nodePressure).times(1000000));
+        double[] z = new double[np.length];
+        double[][] pressure = getArray(getActualPressure(T.net.nodePressure).times(1000000));//节点压力
+        for(int k = 0; k < z.length; k++) {
+            cz.setData(pressure[k][0], temperature);
+            z[k] = cz.getZ();
+        }
+        //q管段流量
+        //管段起点流速
+
+        DecimalFormat df = new DecimalFormat("#0.0000");
+        System.out.println("管段入口流速");
+        for(int k = 0; k < begin.length; k++) {
+            double q1 = z[begin[k] - 1] * StandardCondition.pressure * q[k][0] / pressure[begin[k] - 1][0];
+            System.out.println(df.format(q1 / (3.14 / 4 * diameter[k] * diameter[k])));
+        }
+        //管段终点流速
+        System.out.println("管段入口流速");
+        for(int k = 0; k < begin.length; k++) {
+            double q2 = z[end[k] - 1] * StandardCondition.pressure * q[k][0] / pressure[end[k] - 1][0];
+            System.out.println(df.format(q2 / (3.14 / 4 * diameter[k] * diameter[k])));
+        }
     }
 }

@@ -53,6 +53,11 @@ public class NetworkData {
      */
     public BwrsZ bwrs;
 
+    /**
+     * 管段高程差,m
+     */
+    public Matrix elevationDrop;
+
     public NetworkData() {}
 
     /**
@@ -60,7 +65,7 @@ public class NetworkData {
      * @param array
      * @return
      */
-    private static double[][] getArray(double[] array) {
+    static double[][] getArray(double[] array) {
         double[][] doubleArray = new double[array.length][1];
         for(int i = 0; i < array.length; i++) {
             doubleArray[i][0] = array[i];
@@ -104,12 +109,17 @@ public class NetworkData {
         double[] com = { 1, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
         BwrsZ bwrs = new BwrsZ(com);
         this.bwrs = bwrs;
+
+        //设定管段高程差
+        Elevation E = new Elevation();
+        E.setData();
+        this.elevationDrop = B.generateMatrix().transpose().times(new Matrix(getArray(E.elevation)));
     }
 
     public static void main(String[] args) {
         NetworkData net = new NetworkData();
         net.setData();
-        net.branch.print(1, 0);
+        net.elevationDrop.print(2, 2);
     }
 
 }

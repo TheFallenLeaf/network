@@ -1,5 +1,7 @@
 package cn.edu.cup.tanyao.network;
 
+import Jama.Matrix;
+
 /**
  * 节点海拔
  * @author tanyao
@@ -21,10 +23,11 @@ public class Elevation {
     }
 
     public static void main(String[] args) {
+        BranchMatrix branch = new BranchMatrix();
+        branch.setData();
         Elevation E = new Elevation();
         E.setData();
-        for(int i = 0; i < E.elevation.length; i++) {
-            System.out.println(E.elevation[i]);
-        }
+        Matrix ele = new Matrix(NetworkData.getArray(E.elevation));
+        branch.generateMatrix().transpose().times(ele).print(2, 1);
     }
 }
