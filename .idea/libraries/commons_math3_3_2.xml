@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="commons-math3-3.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Jar/Jama/commons-math3-3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Jar/Jama/jama-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src" />
+    </SOURCES>
+  </library>
+</component>

@@ -48,6 +48,11 @@ public class NetworkData {
      */
     public Matrix pipeImpedance;
 
+    /**
+     * 求组分压缩因子
+     */
+    public BwrsZ bwrs;
+
     public NetworkData() {}
 
     /**
@@ -68,8 +73,9 @@ public class NetworkData {
      */
     public void setData() {
         BranchMatrix B = new BranchMatrix();
+        B.setData();
         this.branch = B.generateMatrix();
-        this.simpleBranch = B.generateMatrix(B.getKnown());
+        this.simpleBranch = B.generateSimpleMatrix();
 
         NodeFlow N = new NodeFlow();
         N.setData();
@@ -89,10 +95,15 @@ public class NetworkData {
         for(int i = 0; i < P.pipeLength.length; i++) {
             impedance[i][0] = Math.pow(StandardCondition.C0, 2)
                     * Math.pow(P.diameter[i], 5) / P.frictionFactor[i]
-                    / G.Z / G.relativeDensity / StandardCondition.temperature
+                    / G.relativeDensity / StandardCondition.temperature
                     / P.pipeLength[i];
         }
         pipeImpedance = new Matrix(impedance);
+
+        //设定气体组分
+        double[] com = { 1, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        BwrsZ bwrs = new BwrsZ(com);
+        this.bwrs = bwrs;
     }
 
     public static void main(String[] args) {

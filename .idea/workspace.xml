@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="678cda0d-cf9e-43e1-9b1c-e0a3a8cb6bf9" name="Default Changelist" comment="" />
+    <list default="true" id="9c36b87e-626a-4d21-978e-5b4b7d6658e2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,90 +13,41 @@
     <session id="-1552877481">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="6" />
-          <entry key="java" value="77" />
+          <entry key="java" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="77" />
+          <entry key="JAVA" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="8" />
-          <entry key="java" value="6539" />
+          <entry key="dummy" value="17" />
+          <entry key="java" value="911" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6539" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="JAVA" value="911" />
+          <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/TestNetwork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="117" column="20" lean-forward="true" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/NetworkData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-89">
-              <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/GasProperty.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/Bwrs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="418" column="35" selection-start-line="418" selection-start-column="35" selection-end-line="418" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/StandardCondition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="-134">
+              <caret line="137" column="56" lean-forward="true" selection-start-line="137" selection-start-column="56" selection-end-line="137" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -113,20 +64,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/FlowMatrix.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/FrictionFactor.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/StandardCondition.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/PipeData.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/Temp.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/PutIn.java" />
-        <option value="$PROJECT_DIR$/src/test/TestTemp.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/NodeFlow.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/BranchMatrix.java" />
-        <option value="$PROJECT_DIR$/src/test/Test.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/NetworkData.java" />
-        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/Bwrs.java" />
-        <option value="$PROJECT_DIR$/src/test/TestNetwork.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/Parameter.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/BwrsZ.java" />
         <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/GasProperty.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/NetworkData.java" />
+        <option value="$PROJECT_DIR$/src/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/TestNetwork.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/Elevation.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/FrictionWeymouth.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/FrictionQianSuLian.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/FrictionQianSuLian1.java" />
+        <option value="$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/FrictionQianSuLian0.java" />
       </list>
     </option>
   </component>
@@ -136,7 +84,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -167,6 +115,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,26 +123,20 @@
               <item name="network" type="b2602c69:ProjectViewProjectNode" />
               <item name="network" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538663220375" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Jar/poi-3.9/lib/log4j-1.2.13.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539269740613" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Jar/poi-3.9/poi-scratchpad-3.9-20121203.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
@@ -210,9 +153,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestNetwork">
-    <configuration name="Bwrs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu.cup.tanyao.network.Bwrs" />
+  <component name="RunManager" selected="Application.FrictionWeymouth">
+    <configuration name="FrictionQianSuLian0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.cup.tanyao.network.FrictionQianSuLian0" />
+      <module name="network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.cup.tanyao.network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrictionWeymouth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.cup.tanyao.network.FrictionWeymouth" />
       <module name="network" />
       <extension name="coverage">
         <pattern>
@@ -226,19 +182,6 @@
     </configuration>
     <configuration name="GasProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.edu.cup.tanyao.network.GasProperty" />
-      <module name="network" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.cup.tanyao.network.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NetworkData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu.cup.tanyao.network.NetworkData" />
       <module name="network" />
       <extension name="coverage">
         <pattern>
@@ -277,19 +220,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NetworkData" />
       <item itemvalue="Application.TestNetwork" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.GasProperty" />
-      <item itemvalue="Application.Bwrs" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.FrictionQianSuLian0" />
+      <item itemvalue="Application.FrictionWeymouth" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FrictionWeymouth" />
+        <item itemvalue="Application.FrictionQianSuLian0" />
         <item itemvalue="Application.TestNetwork" />
-        <item itemvalue="Application.Bwrs" />
-        <item itemvalue="Application.GasProperty" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.NetworkData" />
+        <item itemvalue="Application.GasProperty" />
       </list>
     </recent_temporary>
   </component>
@@ -298,91 +241,51 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="678cda0d-cf9e-43e1-9b1c-e0a3a8cb6bf9" name="Default Changelist" comment="" />
-      <created>1536472108129</created>
+      <changelist id="9c36b87e-626a-4d21-978e-5b4b7d6658e2" name="Default Changelist" comment="" />
+      <created>1539264312386</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536472108129</updated>
-      <workItem from="1536472110831" duration="1582000" />
-      <workItem from="1536585996337" duration="595000" />
-      <workItem from="1536643845447" duration="470000" />
-      <workItem from="1536644343491" duration="5657000" />
-      <workItem from="1536755917360" duration="4183000" />
-      <workItem from="1536801528239" duration="18208000" />
-      <workItem from="1536833409128" duration="19512000" />
-      <workItem from="1536891397082" duration="6928000" />
-      <workItem from="1536901173004" duration="2160000" />
-      <workItem from="1536903536845" duration="1535000" />
-      <workItem from="1538649100892" duration="6750000" />
+      <updated>1539264312386</updated>
+      <workItem from="1539264313817" duration="5818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67580000" />
+    <option name="totallyTimeSpent" value="5818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="936" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11673774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31796116" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35935828" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30368763" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.17902543" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31796116" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35935828" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.17902543" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -391,89 +294,92 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/Temp.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/TestTemp.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/PutIn.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/Bwrs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-839">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/FrictionFactor.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/BwrsZ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/BranchMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="140" column="44" lean-forward="true" selection-start-line="140" selection-start-column="44" selection-end-line="140" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/PipeData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+        <state relative-caret-position="1008">
+          <caret line="134" column="22" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
           <folding>
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/NodeFlow.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/Parameter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java" />
-    <entry file="jar://$PROJECT_DIR$/../algorithms/jar/jama-1.0.2.jar!/Jama/LUDecomposition.class" />
-    <entry file="jar://$PROJECT_DIR$/../algorithms/jar/jama-1.0.2.jar!/Jama/Matrix.class" />
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/StandardCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/Bwrs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="418" column="35" selection-start-line="418" selection-start-column="35" selection-end-line="418" selection-end-column="35" />
+        <state relative-caret-position="548">
+          <caret line="120" column="37" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/NetworkData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+        <state relative-caret-position="123">
+          <caret line="95" column="63" lean-forward="true" selection-start-line="95" selection-start-column="63" selection-end-line="95" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/GasProperty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        <state relative-caret-position="243">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/Elevation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/FrictionQianSuLian1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/FrictionQianSuLian0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+          <folding>
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/cup/tanyao/network/FrictionWeymouth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TestNetwork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="117" column="20" lean-forward="true" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-134">
+          <caret line="137" column="56" lean-forward="true" selection-start-line="137" selection-start-column="56" selection-end-line="137" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -553,7 +459,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>poi-ooxml-schemas-3.9-20121203</last-edited>
+          <last-edited>commons-math3-3.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

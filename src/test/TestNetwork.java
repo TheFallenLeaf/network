@@ -34,13 +34,31 @@ public class TestNetwork {
     }
 
     /**
+     * 计算管段的压缩因子
+     * @param net
+     * @return
+     */
+    private static Matrix getZ(NetworkData net) {
+        Matrix var1 = net.branch.transpose().times(net.nodePressure); //P1²-P2²
+        Matrix var2 = net.branch.transpose().times(getActualPressure(net.nodePressure)); //P1-P2
+        Matrix pressure = var2.arrayLeftDivide(var1).times(0.5); //管段的平均压力(P1²-P2²)/(P1-P2)/2
+        double[][] var3 = getArray(pressure);
+        double[][] var4 = new double[var3.length][1];
+        for(int i = 0; i < var3.length; i++) {
+            net.bwrs.setData(var3[i][0]/1000, 293.15);
+            var4[i][0] = net.bwrs.getZ();
+        }
+        return new Matrix(var4);
+    }
+
+    /**
      * 计算方程的函数值
      * @param network
      * @return
      */
     private static Matrix functionValue(NetworkData network) {
-        Matrix test = network.pipeImpedance;
-        Matrix temp0 = network.branch.transpose().times(network.nodePressure).arrayTimes(test);
+        Matrix temp = network.pipeImpedance.arrayRightDivide(getZ(network));
+        Matrix temp0 = network.branch.transpose().times(network.nodePressure).arrayTimes(temp);
         double[][] temp1 = temp0.getArray();
 
         for(int i = 0; i < temp1.length; i++) {
@@ -94,18 +112,16 @@ public class TestNetwork {
     }
 
 
+
     public static void main(String[] args) {
         TestNetwork T = new TestNetwork();
         T.setData();
 
-        Matrix test;
-
-        Matrix dy = T.net.nodeLoad.copy();
+        Matrix dy;
         int i;
         for(i = 0; i < 500; i++) {
             //计算迭代增量
             try{
-                test = jacobi(T.net);
                 dy = jacobi(T.net).solve(functionValue(T.net).times(-1));
             } catch(Exception e) {
 
@@ -114,7 +130,6 @@ public class TestNetwork {
                 break;
             }
 
-            dy.timesEquals(0.2);
             //改变变量的值
             int count = 0;
             for(int j = 0; j < T.net.nodeLoad.getRowDimension(); j++) {
@@ -125,7 +140,7 @@ public class TestNetwork {
                 }
             }
 
-            if(functionValue(T.net).normInf() < 0.00001) {
+            if(dy.normInf() < 1) {
                 break;
             }
 
@@ -138,7 +153,7 @@ public class TestNetwork {
 
         System.out.println("迭代次数：" + i);
         //计算流量
-        Matrix Flow = T.net.branch.transpose().times(T.net.nodePressure).arrayTimes(T.net.pipeImpedance);
+        Matrix Flow = T.net.branch.transpose().times(T.net.nodePressure).arrayTimes(T.net.pipeImpedance.arrayRightDivide(getZ(T.net)));
         double[][] q = getArray(Flow);
         for(int k = 0; k < q.length; k++) {
             q[k][0] = Math.sqrt(Math.abs(q[k][0]));

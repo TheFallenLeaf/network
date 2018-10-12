@@ -28,7 +28,7 @@ public class PipeData {
         double[] pipeLength = new double[count];
         double[] diameter = new double[count];
 
-        FrictionFactor F = new FrictionFactor();
+        FrictionWeymouth F = new FrictionWeymouth();
 
         for (int i = 0; i < count; i++) {
             diameter[i] = PutIn.getElement(i + 2, 5, 1);

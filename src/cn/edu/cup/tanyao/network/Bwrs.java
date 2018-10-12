@@ -415,8 +415,8 @@ public class Bwrs {
     public static void main(String[] args){
         double[] com = { 1, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
         Bwrs A = new Bwrs(com);
-        A.init(301.325, 293.15);
-        System.out.println(A.getZ());
+        A.init(101.325, 293.15);
+        System.out.println(A.getRou_weight());
 
     }
 }

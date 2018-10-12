@@ -36,7 +36,7 @@ public class GasProperty implements StandardCondition{
 
     public void setData() {
         Bwrs A = new Bwrs(component);
-        A.init(3001.325, temperature);
+        A.init(StandardCondition.pressure / 1000, temperature);
         this.Z = A.getZ();
         this.density = A.getRou_weight();
         relativeDensity = density / StandardCondition.airDensity;
@@ -58,6 +58,5 @@ public class GasProperty implements StandardCondition{
         GasProperty G = new GasProperty();
         G.setData();
         System.out.println(G.Z);
-        //System.out.println("密度：" + G.density + ",相对密度：" + G.relativeDensity);
     }
 }
